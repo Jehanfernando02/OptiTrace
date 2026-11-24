@@ -11,7 +11,7 @@
 
 **OptiTrace** helps a team decide *how much monitoring each microservice should get* when the budget is limited. Instead of guessing, it measures how much each service's telemetry actually helps root cause analysis (RCA), then picks a **Basic**, **Medium** or **Deep** tier for every service within the budget. Every tier comes with a reason.
 
-> Final-year research project: W.B. Jehan Ravishka Fernando, Informatics Institute of Technology (University of Westminster). Supervisor: Mr. Sapumal Perera.
+> Final-year research project: W.B. Jehan Ravishka Fernando, Informatics Institute of Technology (University of Westminster).
 
 ---
 
@@ -115,23 +115,13 @@ Planned fault types: CPU stress, latency injection, and packet-loss errors. Ever
 
 ---
 
-## Preliminary results
-
-> From an **earlier prototype**, shown for context only. They are **preliminary**, specific to BARO, and will be re-run in this repository.
-
-- The value-based plan **tied** a fixed latency-and-CPU rule. It did not clearly beat it.
-- BARO and CorrGraph value rankings agreed only moderately (Spearman 0.60 and 0.33).
-- Stage 0, parsers plus a language model, recovered **84–90%** of context fields against **48%** for parsers alone.
-- The learned estimator helped on one of three systems.
-
----
 
 ## Status
 
 | Component | State |
 |---|---|
 | Design, scope and evaluation plan | Done |
-| Stage 3 masked replay (per cell, placebo, pairwise) | In progress |
+| Stage 3 masked replay (per cell, placebo, pairwise) | Planned |
 | Stage 5 allocator (DP, floors, checked against exhaustive search) | Planned |
 | Stage 6 comparison against simple rules | Planned |
 | Stage 4 estimation | Planned |
@@ -198,4 +188,4 @@ optitrace/
 
 BARO and RCAEval are used under their own licences (see their repositories). All other code is written for this project. Released under the **MIT licence**.
 
-<sub>Author: W.B. Jehan Ravishka Fernando · Contact: _add email_ · Repository: _add URL_</sub>
+<sub>Author: Jehan Fernando · Contact: 02jehanfernando@gmail.com · </sub>
